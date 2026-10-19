@@ -1,0 +1,24 @@
+# —— 中文注释规范示例（前端由此参考）——
+# 命名：使用有意义的小驼峰；组件用 PascalCase；常量用 UPPER_SNAKE。
+# 所有函数/类/参数/接口调用均需中文注释。
+
+# 后端忽略（Python）
+__pycache__/
+*.pyc
+backend/.venv/
+backend/venv/
+.pytest_cache/
+
+# 前端忽略（Node）
+node_modules/
+dist/
+frontend/node_modules/
+frontend/dist/
+
+# 数据与运行时产物
+data/*.db
+data/*.csv
+data/*.xlsx
+data/*.xls
+*.log
+.env
